@@ -3,9 +3,9 @@ library(data.table)
 library(dplyr)
 library(microbenchmark)
 
-Users <- read.csv('./data/Users.csv')
-Comments <- read.csv('./data/Comments.csv')
-Posts <- read.csv('./data/Posts.csv')
+Users <- read.csv('./Users.csv')
+Comments <- read.csv('./Comments.csv')
+Posts <- read.csv('./Posts.csv')
 
 source("./sqldf.R")
 source("./dplyr.R")
