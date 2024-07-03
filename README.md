@@ -1,20 +1,22 @@
 # R_data_exploration
 The project in which I explore archival data using different R libraries.
 
-# How to use
-Download and unzip Posts.csv.gz, Comments.csv.gz, Users.csv.gz
-
-# About the project
+## About the project
 In this project I used data from https://archive.org/details/stackexchange. 
 It's goal was to explore this data set using different libraries in R
 and compare the speed of the functions.
 
 ## Technologies used:
   - R
-  - sqldf
-  - dplyr
-  - data.table
-  - microbenchmark
+  - Libraries; sqldf. dplyr, data.table, microbenchmark
+
+## Usage
+1. Clone the repository: `git clone https://github.com/kowalskihubert/R_data_exploration.git`.
+2. Unzip `Posts.csv.gz`, `Comments.csv.gz`, `Users.csv.gz` into the `data/` folder.
+3. Navigate to the project directory: `cd R_data_exploration`.
+4. Run `main.R` to see the results of the queries using the fastest library from the ones that were tested (*data.table*).
+5. Run `benchmark.R` to compare the time efficiency of all tested methods: *sqldf, dplyr, data.table* and *base R*.
+
 
 # SQL queries
 ## Query 1
